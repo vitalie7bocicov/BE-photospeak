@@ -1,6 +1,6 @@
 const vision = require("@google-cloud/vision");
 const client = new vision.ImageAnnotatorClient({
-    keyFilename : "./api-key.json"
+    keyFilename : "./vital-api-key.json"
 })
 
 async function getLabelsFromPhoto(photo) {
