@@ -11,7 +11,7 @@ lerna-debug.log*
 
 
 # api-key
-
+vital-api-key.json
 api-key.json
 myapi-json.json
 
