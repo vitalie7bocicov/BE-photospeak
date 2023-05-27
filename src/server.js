@@ -28,6 +28,18 @@ app.use((req, res, next) => {
   next();
 });
 
+app.post('/translate', async (req, res) => {
+  const text = req.body.text;
+  const labels = text.split(',');
+  const language = req.body.language;
+  
+  for(let i = 0; i < labels.length; i++) {
+    labels[i] = await translateText(labels[i], language);
+  }
+
+  res.send(labels);
+});
+
 app.post("/what-is", upload.single("photo"), async (req, res) => {
   const photo = req.file.buffer;
   const language = req.body.language;
@@ -42,7 +54,8 @@ app.post("/what-is", upload.single("photo"), async (req, res) => {
 });
 
 app.get("/getUserPhoto", async (req, res) => {
-  const username = { username: req.body?.username };
+  const username = { username: req.query?.username };
+  
 
   fetch("https://us-central1-edik-317621.cloudfunctions.net/getUserPhotos", {
     method: "POST",
@@ -56,7 +69,7 @@ app.get("/getUserPhoto", async (req, res) => {
     })
     .then((r) => {
       const msg = { message: "Sucesfully updated" };
-
+      console.log(r);
       if (r.hasOwnProperty("message")) {
         res.send([]);
       } else {
