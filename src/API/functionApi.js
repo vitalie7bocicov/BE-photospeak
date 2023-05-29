@@ -24,7 +24,7 @@ const uploadPhoto = (req, labels) => {
                 blobStream.on('finish', () => {
                     const stringLabels = labels.join(',');
                     const username = req.body?.username;
-
+                    
                     const body = {
                         filename: req.file.originalname,
                         username: username,
