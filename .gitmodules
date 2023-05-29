@@ -1,0 +1,6 @@
+[submodule "InsertCloudFunction"]
+	path = InsertCloudFunction
+	url = https://github.com/eduardsoltan/InsertCloudFunction.git
+[submodule "GetPhotosCloudFunction"]
+	path = GetPhotosCloudFunction
+	url = https://github.com/eduardsoltan/GetPhotosCloudFunction.git

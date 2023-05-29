@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "photospeak",
+  "private_key_id": "e43f3b8203e7aede35b85e1edb9930f5048f33ad",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC8imM47LpOiNRR\njH2G0aF6d7TxbO3SgdjWQfFxHsxB+f7O7DRE/KQJxO4QIk98kz5Objncu4o+5AAT\naj3XcOFuKBtHlIXFcTny9N/bJjsDp5SvXNTHAunzMdcu6huin/ZRIPQ2sjFsSvfL\nKDVUFcFI73PVMVzwPVE9pb0hBlGUbY3FutKzrvb53GcUX3blvc1HIjagjfUkekQl\n8pybbrT0WKvtCSGfm9ZBPD6NOV/hFoOKPvJhQChBNcgS3R/5kTAcfizTIfd5b7bg\niWzBeCV+6G0CUJmR0ZUg67m+syLSXHRzOTu7pc1ZKVG8c/ppOG11IF7F6ngmSFIq\nMKiAcVElAgMBAAECggEAQ/XCFDfIZByQI6D3ckxH34QctdVk2DczuO9mHzdRuwpo\n3Z9oq+FBI8BXa3timW3dzJmQw87Z4xd+K4FlLy4iI/nS83dGzMemcrvvoOfj58pV\nHuzgSaf0OlQh02hRc8ojGFU/kiOjCvzu2szwhBGfbTHa1+MGNBZ2HTmLtca4Sz6e\nAl7it/HR5oYrpu1HbnH0378eYA4IkJq/7zGlDaEk97wzMROBeGisLOBC7Nu6xTB7\n2iEFOdAPjCtqvN54wQPUAEkSnxA44Bn+WI8Xpd8cBUBdcyRYrgXuGVoSFRBfRF9Y\nBHkAM1u604n2O2frTweyf71JbFWvxkmAbl6rctHp1QKBgQD+TBB9IGGTl60l7Rxe\n4bAGvtYLKpMra6POqlkwg77h0e2WFxOAgRRuK5Yr+b/N02k1+I0Wr7VjQKi6EIf0\noGyDgIlVWYEVzonq9QJHhSuieSgFq7hucBGDW1mzxscvJH7xWr9zksJcrX+1UefE\nCv1A8e9VGgNvg5yNv7KpJaNDDwKBgQC9zZkoJiLri5/Fp7DeIMzFuQ2FNcySns3Z\nPK9SKCghJoubjJuZ8jce2ozmjihfqakWRctlmw1qTkB+ONnRKIXLWiz3jQRw1I5c\nEQILYQymsZD+1+nOBGh+wV/rbWvVoZdfGPEGFrRzB7PdfN8Kt7YaFcNNNgzPWhUa\n3QErU1WYiwKBgQDpnJsxOAQsAJUyWEdN6us45yvfijc1FmefveK9rOo4rhAjaAOk\nc/B+3U/SClfoECWBTVrf0n9CNO5MME+VraLCk9yWKelqTRlqXbbAWViio8bensiJ\nvC56i/s2KpBlgJOVyhZDaDlhxomh2yKdeLL7bMa/WWx6j1/M4KSSu17mhQKBgDZq\nTF+TV22aUQsUwYNdefexzyuCugzLFI8Uc9slAiRG7b2BuVaQd7cTx1OOLAsJFB37\nko2lv1nb52eImwH5ESq0xrGOL1i9x7ajdaeXgk4EGGLHuhNDdkXo4LwZWdIcis5L\n00YAmmlkKu/0Den/s2iVFrH7Lf8Af459EAnA0YhzAoGAGndTMxIOb+ZpxDFb3q1m\nCgppYEZmE+tDF/hfay8sLQDAMnRxFWujVnPtxg2KosqIS4xda7hSE5SuxMGiPUPF\nZ05LKjC9URhIgdLGAEOu3+zL8c+TUfiSOLVg/YJd+CTIWqINpwwrWzY1imsjKXKG\nwQWamFyRzap2/PEeUcr5XJM=\n-----END PRIVATE KEY-----\n",
+  "client_email": "photospeak-service@photospeak.iam.gserviceaccount.com",
+  "client_id": "116738589466174358898",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/photospeak-service%40photospeak.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
